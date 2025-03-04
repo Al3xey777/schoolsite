@@ -1,0 +1,93 @@
+body
+{
+    background-color: rgb(136, 189, 188);
+}
+div
+{
+    margin: 0px;
+}
+/*Выравнивание блока по центру*/
+.loginBlock
+{
+    background-color: #88BDBC;
+    width: 525px;
+    position: relative;
+    left: 40%;
+    /*margin-left: 50%;
+    margin-top: 50%;*/
+}
+/*Настройка кнопки*/
+.loginBlock button
+{
+    display: block;
+    border-radius: 20px;
+    border: 0px;
+    background-color: rgb(37, 78, 88);
+    width: 518px;
+    height: 73px;
+    font-size: 50px;
+    color: #88BDBC;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+/*Все текста в блоке покрасить и изменить размер*/
+.loginBlock p, span
+{
+    color: rgb(17, 45, 50);
+    font-size: 32px;
+}
+/*Выравнивание по центру "Или зарегестрируйтесь"*/
+.textRegestragion
+{
+    text-align: center;
+}
+/*Стилизация "Забыли пароль?"*/
+.textForgotPassword
+{
+    position: absolute;
+    right: 0;
+}
+/*Текст "Авторизировать"*/
+.loginBlock p:nth-child(1)
+{
+    text-align: center;
+    font-size: 64px;
+}
+/*Стилизация для полей ввода*/
+.inputText
+{
+    display: block;
+    margin: 20px 10px;
+    width: 503px;
+    height: 73px;
+    background-color: rgb(136, 189, 188);
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 2px solid #112D32;
+    font-size: 32px;
+}
+/*Прозрачные надписи в полях ввода*/
+.inputText::placeholder
+{
+    font-size: 32px;
+}
+/*Отключение обводки при активации*/
+.inputText:focus
+{
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #112D32;
+}
+/*Стилизация кнопки запомнить*/
+.checkboxRemember
+{
+    border-radius: 4px;
+    border: none;
+    background-color: #D8E3E3;
+}
+.checkboxRemember:hover
+{
+    border: none;
+    outline: none;
+}
